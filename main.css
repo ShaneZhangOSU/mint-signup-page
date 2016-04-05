@@ -4,7 +4,8 @@
   margin: auto;
   width: 800px;
   height: 1150px;
-
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333343;
 }
 
 /* Header */
@@ -12,20 +13,21 @@
 .header {
   width: 800px;
   height: 50px;
-  border: solid;
+  padding-top: 20px;
 }
 
 .header img {
-  width: 100px;
+  width: 110px;
   height: auto;
+  margin-top: 30px;
 }
 
 .sign-in {
   float: right;
   width: 200px;
   height: 50px;
+  margin-top: 30px;
   text-align: right;
-  border: solid;
 }
 
 .sign-in p {
@@ -33,12 +35,15 @@
 }
 
 #sign-up {
-  padding-right: 5px;
+  padding-right: 10px;
   border-right: solid 1px #888888;
+  font-weight: 900;
 }
 
 #log-in {
-
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 200;
 }
 
 /* Feature */
@@ -54,12 +59,32 @@
 
 .sidebar {
   float: right;
+  width: 250px;
+  height: 600px;
+  margin-top: 50px;
+  border-left: solid 1px #888888;
+}
+
+.sidebar-content {
+  width: 200px;
+  height: inherit;
+  margin: 25px;
+  color: #666666;
+  background-color: #F5F5F5;
 }
 
 /* Form */
+.form-wrapper {
+
+}
 
 .form {
   margin: 30px;
+}
+
+.form h2 {
+  font-size: 28px;
+  font-weight: 500;
 }
 
 /* Footer */
