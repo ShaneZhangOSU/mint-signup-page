@@ -22,6 +22,10 @@
   margin-top: 30px;
 }
 
+.header img:hover {
+  cursor: pointer;
+}
+
 .sign-in {
   float: right;
   width: 200px;
@@ -41,10 +45,18 @@
   font-weight: 900;
 }
 
+#sign-up:hover {
+  cursor: pointer;
+}
+
 #log-in {
   padding-left: 5px;
   font-size: 14px;
   font-weight: 200;
+}
+
+#log-in:hover {
+  cursor: pointer;
 }
 
 /* Feature */
@@ -52,12 +64,12 @@
 .feature {
   clear: both;
   width: 800px;
-  height: 800px;
+  height: 740px;
   border-radius: 2px;
   box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.2);;
 }
 
-.feature_content {
+.feature-content {
   width: 800px;
   height: 600px;
   padding: 24px 25px;
@@ -68,7 +80,7 @@
 .sidebar {
   float: right;
   width: 250px;
-  height: 600px;
+  height: 550px;
   margin-top: 25px;
   padding-left: 25px;
   border-left: solid 1px #BBBBBB;
@@ -115,9 +127,80 @@
   margin: 30px;
 }
 
+.form-content {
+  width: 300px;
+  padding-top: 20px;
+}
+
 .form h2 {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 100;
+}
+
+.form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.form input {
+  height: 32px;
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 0 8px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.form #remember {
+  display: inline-block;
+  width: 300px;
+}
+
+.form #remember input {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  margin: 0;
+  margin-right: 5px;
+  vertical-align: middle;
+  bottom: 1px;
+}
+
+.form #remember input:hover {
+  cursor: pointer;
+}
+
+.form button {
+  margin-top: 20px;
+  width: 90px;
+  height: 33px;
+  padding-bottom: 5px;
+  background-color: #45CAE6;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 200;
+  border: none;
+  border-radius: 2px;
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+.form p {
+  margin-top: 30px;
+  color: #999999;
+  font-size: 12px;
+}
+
+.form p span {
+  color: #45CAE6;
+}
+
+.form p span:hover {
+  cursor: pointer;
 }
 
 /* Footer */
